@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Landing Page Matemática</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Cabeçalho -->
+  <header class="cabecalho">
+    <div class="logo">
+      <img src="imagens/logo.png" alt="Logo Matemática">
+    </div>
+    <nav class="menu">
+      <ul>
+        <li><a href="#inicio" class="ativo">Início</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#proposito">Propósito</a></li>
+        <li><a href="#equipe">Equipe</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Seção 1 (Início / Hero) - MANTIDA IGUAL AO SEU ARQUIVO -->
+  <section class="secao hero" id="inicio">
+    <div class="conteudo">
+      <h1><span class="azul">APRENDA MATEMÁTICA</span><br><span class="laranja">DE FORMA MÁGICA</span></h1>
+      <p>Aprenda somar, subtrair, multiplicar, dividir e resolver desafios enquanto se diverte!</p>
+      <div class="botoes">
+        <a href="#" class="btn professor">sou professor</a>
+        <a href="#" class="btn aluno">sou aluno</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção 2 (Sobre) - ORIGINAL -->
+  <section class="secao secao2" id="sobre">
+    <div class="conteudo">
+      <div class="caixa-sobre">
+        <p>
+          O <strong>MathMagic</strong> nasceu para tornar o aprendizado de matemática mais 
+          <strong>leve, divertido e eficaz</strong>. Enquanto as crianças exploram desafios e fases cheias de magia, 
+          elas desenvolvem raciocínio lógico, concentração e confiança com os números. Nosso objetivo é unir 
+          diversão e educação, oferecendo uma ferramenta que ajuda no desempenho escolar e, ao mesmo tempo, 
+          mantém os pequenos motivados a aprender. Com o <strong>MathMagic</strong>, a matemática deixa de ser um 
+          problema e se transforma em descoberta, conquista e alegria! Pronto para a Mágica?
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção 3 (Propósito) - ORIGINAL -->
+  <section class="secao secao3" id="proposito">
+    <div class="conteudo">
+      <div class="caixa-proposito">
+        <p>
+          O <strong>MathMagic</strong> funciona porque transforma o estudo em uma 
+          <strong>Jornada de Aprendizagem Adaptativa.</strong> O aplicativo oferece um universo gamificado 
+          que se adapta ao ritmo do seu filho, onde jogos de <strong>Soma, Subtração, Multiplicação</strong> 
+          e <strong>Divisão</strong> são disfarçados de missões e aventuras para garantir o domínio completo 
+          do currículo. E para você, pai ou mãe, garantimos total controle: acesso exclusivo para acompanhar 
+          o progresso em tempo real, identificar áreas de dificuldade e celebrar cada grande avanço do seu 
+          pequeno mago da matemática. Para a segurança, o ambiente é 100% livre de anúncios e distrações, 
+          para que seu filho possa se concentrar apenas no que importa: aprender brincando. 
+          <strong>Veja seu filho brilhar!</strong>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção 4 (Equipe) - ADICIONADA / AJUSTADA -->
+  <section class="secao secao4" id="equipe">
+    <div class="conteudo equipe-container">
+      <!-- LADO ESQUERDO: CARDS (maiores e mais à esquerda) -->
+      <div class="cards-equipe">
+        <div class="card azul">
+          <img src="integrantes/richard.png" alt="Richard">
+          <div>
+            <h3>Richard</h3>
+            <p>Scrum Master</p>
+          </div>
+        </div>
+
+        <div class="card vermelho">
+          <img src="integrantes/mariajulia.png" alt="Maria Julia">
+          <div>
+            <h3>Maria Julia</h3>
+            <p>Tech-leader</p>
+          </div>
+        </div>
+
+        <div class="card amarelo">
+          <img src="integrantes/JoãoPedro.png" alt="João Pedro">
+          <div>
+            <h3>João Pedro</h3>
+            <p>Front-End</p>
+          </div>
+        </div>
+
+        <div class="card verde">
+          <img src="integrantes/LuisFelipe.png" alt="Luis Felipe">
+          <div>
+            <h3>Luis Felipe</h3>
+            <p>Back-End</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- LADO DIREITO: TÍTULO (posicionado em cima) e MAGO (embaixo) -->
+      <div class="titulo-mago">
+        <h2 class="titulo-time">
+          <span class="azul-escuro">Conheça nossa</span>
+          <span class="laranja-claro">equipe</span>
+        </h2>
+        <img src="mascote/mago2.png" alt="Mago" class="mago-img">
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção 5 (Contato / Rodapé) - REFEITA conforme sua imagem -->
+  <section class="secao secao5" id="contato">
+    <div class="footer-box">
+      <div class="footer-grid">
+        <!-- coluna esquerda: contatos com ícones -->
+        <div class="footer-left">
+          <div class="contact-item">
+            <span class="icon">
+              <!-- envelope SVG -->
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 4h16v16H4z" fill="none"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+            </span>
+            <span class="contact-text">mathmagic@gmail.com</span>
+          </div>
+          <div class="contact-item">
+            <span class="icon">
+              <!-- telefone SVG -->
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 16.92V21a1 1 0 0 1-1.11 1 19.86 19.86 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.86 19.86 0 0 1 2 3.11 1 1 0 0 1 3 2h4.09a1 1 0 0 1 1 .75 12.05 12.05 0 0 0 .7 2.81 1 1 0 0 1-.24 1L7.91 8.09"></path>
+              </svg>
+            </span>
+            <span class="contact-text">(15)123456789</span>
+          </div>
+          <div class="contact-item">
+            <span class="icon">
+              <!-- instagram SVG -->
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                <line x1="17.5" y1="6.5" x2="17.5" y2="6.5"></line>
+              </svg>
+            </span>
+            <span class="contact-text">math_magic2025</span>
+          </div>
+        </div>
+
+        <!-- coluna centro: desenvolvedores -->
+        <div class="footer-center">
+          <h4>Desenvolvedores:</h4>
+          <p>
+            João Pedro Dias Pedroso<br>
+            Luís Felipe Souza Fogaça<br>
+            Maria Julia Domingues Antunes<br>
+            Richard de Oliveira Ribeiro
+          </p>
+        </div>
+
+        <!-- coluna direita: colaboradores -->
+        <div class="footer-right">
+          <h4>Colaboradores:</h4>
+          <p>
+            João Paulo Lepinsk<br>
+            Rafael Ribas
+          </p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        ©mathmagic
+      </div>
+    </div>
+  </section>
+
+  <!-- Script para menu ativo -->
+  <script>
+    const sections = document.querySelectorAll("section");
+    const navLinks = document.querySelectorAll(".menu ul li a");
+
+    window.addEventListener("scroll", () => {
+      let current = "";
+      sections.forEach(sec => {
+        const sectionTop = sec.offsetTop - 120;
+        const sectionHeight = sec.clientHeight;
+        if (scrollY >= sectionTop && scrollY < sectionTop + sectionHeight) {
+          current = sec.getAttribute("id");
+        }
+      });
+      navLinks.forEach(link => {
+        link.classList.remove("ativo");
+        if (link.getAttribute("href") === "#" + current) {
+          link.classList.add("ativo");
+        }
+      });
+    });
+  </script>
+</body>
+</html>
